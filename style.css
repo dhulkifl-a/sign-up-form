@@ -1,0 +1,17 @@
+.containder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: 1rem solid black;
+    height: 1rem;
+    width: 1rem;
+}
+
+.box {
+    display: flex;
+    background-color: white;
+    border: 1rem solid blue;
+    height: 0.5rem;
+    width: 0.5rem
+}

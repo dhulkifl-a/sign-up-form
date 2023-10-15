@@ -1,17 +1,14 @@
-.containder {
+
+body {
+    margin: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: red;
-    border: 1rem solid black;
-    height: 10rem;
-    width: 10rem;
+    flex-direction: row;
 }
 
-.box {
-    display: flex;
-    background-color: white;
-    border: 1rem solid blue;
-    height: 5rem;
-    width: 5rem;
+.side-banner {
+    background: center center ;
+    background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    width: min(50%, 900px);
+    height: 100vh;
 }

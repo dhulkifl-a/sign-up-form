@@ -29,3 +29,8 @@ img {
     height: 165px;
     margin-top: 275px;
 }
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(./fonts/Norse-Bold.otf);
+}

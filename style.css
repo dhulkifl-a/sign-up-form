@@ -12,12 +12,14 @@ body {
     width: min(1000px);
     height: 100vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 img {
     margin-top: 10px;
     color: white;
+    opacity: 1;
 }
 
 
@@ -27,10 +29,18 @@ img {
     opacity: 0.5;
     text-align: center;
     height: 165px;
-    margin-top: 275px;
+    display: flex;
+    align-items: center;
 }
 
 @font-face {
     font-family: Norse-Bold;
     src: url(./fonts/Norse-Bold.otf);
+}
+
+.logo-text {
+    font-family: Norse-Bold, sans-serif;
+    font-size: 5rem;
+    color: white;
+    opacity: 1;
 }

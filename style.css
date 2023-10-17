@@ -9,6 +9,23 @@ body {
     background: center center ;
     background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
-    width: min(50%, 900px);
+    width: min(1000px);
     height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    margin-top: 10px;
+    color: white;
+}
+
+
+.image-container {
+    width: 100%;
+    background: black;
+    opacity: 0.5;
+    text-align: center;
+    height: 165px;
+    margin-top: 275px;
 }

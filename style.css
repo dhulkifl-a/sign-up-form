@@ -1,4 +1,11 @@
 
+:root {
+    --main-text-color: brown;
+    --main-background-color: rgb(248, 245, 245);
+    --form-container-background-color: white;
+    --font: Arial, Helvetica;
+}
+
 body {
     margin: 0;
     display: flex;
@@ -20,6 +27,7 @@ img {
     margin-top: 10px;
     color: white;
     opacity: 1;
+    
 }
 
 
@@ -41,6 +49,21 @@ img {
 .logo-text {
     font-family: Norse-Bold, sans-serif;
     font-size: 5rem;
-    color: white;
+    color: var(--form-container-background-color);
     opacity: 1;
 }
+
+.main-content {
+    padding-left: 3rem;
+    background-color: var(--main-background-color);
+
+}
+
+.first-heading {
+    font-family: var(--font);
+    font-size: 1.5rem;
+    font-weight:900;
+    margin: 0;
+    border: 0;
+}
+

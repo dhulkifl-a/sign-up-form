@@ -3,7 +3,14 @@
     --main-text-color: brown;
     --main-background-color: rgb(248, 245, 245);
     --form-container-background-color: white;
-    --font: Arial, Helvetica;
+    --font: sans-serif, Arial, Helvetica;
+    --heading-font-wieight:900;
+    --container-title-size:300;
+    --form-font-weight:100;
+    --heading-bottom-margin:2rem;
+    --heading-font-size:1.3rem;
+    --heading-width:25rem;
+    --left-space: 3rem;
 }
 
 body {
@@ -39,6 +46,7 @@ img {
     height: 165px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 @font-face {
@@ -54,17 +62,37 @@ img {
 }
 
 .main-content {
-    padding-left: 3rem;
     background-color: var(--main-background-color);
-    padding-right: 3rem;
-
+    display: flex;
+    flex-direction: column;
 }
 
-.first-heading {
+[class*="heading"] {
+    padding-bottom: 2rem;
     font-family: var(--font);
-    font-size: 1.3rem;
-    font-weight:900;
-    margin: 0;
-    border: 0;
+    font-size: var(--heading-font-size);
+    font-weight: var(--heading-font-wieight);
+    margin-left: var(--left-space);
 }
 
+.form-container {
+    background-color: var(--form-container-background-color);
+    width: auto;
+}
+
+
+
+form {
+    margin-left: var(--left-space);
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+input, button {
+    align-self: flex-start;
+}
+
+.form-title {
+    margin-left: var(--left-space);
+}

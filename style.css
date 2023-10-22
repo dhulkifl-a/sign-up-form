@@ -1,7 +1,7 @@
 
 :root {
     --main-text-color: brown;
-    --main-background-color: rgb(248, 245, 245);
+    --main-background-color: #f9fafb;
     --form-container-background-color: white;
     --font: sans-serif, Arial, Helvetica;
     --heading-font-wieight:900;
@@ -23,8 +23,8 @@ body {
     background: center center ;
     background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
-    width: 1200px;
-    height: 100vh;
+    width: min(1000px);
+    height: auto;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -78,6 +78,7 @@ img {
 .form-container {
     background-color: var(--form-container-background-color);
     width: auto;
+    box-shadow: 0 10px 5px lightgrey;
 }
 
 
@@ -95,17 +96,33 @@ input, button {
 }
 
 .form-title {
-    margin-left: var(--left-space);
+    padding-left: var(--left-space);
     font-size: 1.2rem;
     font-family: var(--font);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 input {
     border: 0.1rem #E5E7EB solid;
     border-radius: 0.25rem;
     font-size: var(--heading-font-size);
+    margin-bottom:1rem;
+}
+
+label {
+font-weight: 200;
+font-size: 0.9rem;
 }
 
 button {
+    margin-top: 2rem;
     margin-left: var(--left-space);
+    background-color: #596D48;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 0.35rem;
+    box-shadow: 5px 5px 5px lightgrey;
+    padding: 1rem 3rem;
+    cursor: pointer;
 }

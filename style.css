@@ -16,7 +16,7 @@ body {
     background: center center ;
     background-image: url(./images/halie-west-25xggax4bSA-unsplash.jpg);
     background-size: cover;
-    width: min(1000px);
+    width: 1200px;
     height: 100vh;
     display: flex;
     justify-content: space-evenly;
@@ -56,12 +56,13 @@ img {
 .main-content {
     padding-left: 3rem;
     background-color: var(--main-background-color);
+    padding-right: 3rem;
 
 }
 
 .first-heading {
     font-family: var(--font);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight:900;
     margin: 0;
     border: 0;

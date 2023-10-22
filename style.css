@@ -87,6 +87,7 @@ form {
     display: flex;
     flex-direction: column;
     width: auto;
+    font-family: var(--font);
 }
 
 input, button {
@@ -94,5 +95,17 @@ input, button {
 }
 
 .form-title {
+    margin-left: var(--left-space);
+    font-size: 1.2rem;
+    font-family: var(--font);
+}
+
+input {
+    border: 0.1rem #E5E7EB solid;
+    border-radius: 0.25rem;
+    font-size: var(--heading-font-size);
+}
+
+button {
     margin-left: var(--left-space);
 }

@@ -37,7 +37,6 @@ img {
     
 }
 
-
 .image-container {
     width: 100%;
     background: black;
@@ -81,8 +80,6 @@ img {
     box-shadow: 0 10px 5px lightgrey;
 }
 
-
-
 form {
     margin-left: var(--left-space);
     display: flex;
@@ -115,9 +112,13 @@ font-weight: 200;
 font-size: 0.9rem;
 }
 
+input:focus {
+    border: 0.15rem blue solid;
+}
+
 button {
     border-style: none;
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-left: var(--left-space);
     background-color: #596D48;
     font-size: 1.2rem;
@@ -126,4 +127,17 @@ button {
     box-shadow: 5px 5px 5px lightgrey;
     padding: 1rem 3rem;
     cursor: pointer;
+}
+
+footer {
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+    margin-left: var(--left-space);
+    font-family: var(--font);
+}
+
+a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: var(--heading-font-wieight);
 }

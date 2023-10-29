@@ -42,8 +42,8 @@ img {
 .image-container {
     margin-top: 10rem;
     width: 100%;
-    background: black;
-    opacity: 0.5;
+    background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
+     background: rgba(0, 0, 0, 0.5);
     text-align: center;
     height: 165px;
     display: flex;
@@ -60,7 +60,6 @@ img {
     font-family: Norse-Bold, sans-serif;
     font-size: 5rem;
     color: var(--form-container-background-color);
-    opacity: 1;
 }
 
 .main-content {

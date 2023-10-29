@@ -116,6 +116,7 @@ font-size: 0.9rem;
 }
 
 button {
+    border-style: none;
     margin-top: 2rem;
     margin-left: var(--left-space);
     background-color: #596D48;

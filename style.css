@@ -43,7 +43,7 @@ img {
     margin-top: 10rem;
     width: 100%;
     background: rgb(0, 0, 0); /* Fallback for older browsers without RGBA-support */
-     background: rgba(0, 0, 0, 0.5);
+     background: rgba(0, 0, 0, 0.4);
     text-align: center;
     height: 165px;
     display: flex;
@@ -83,6 +83,7 @@ img {
 }
 
 form {
+    /*Need to figure out flex wrap*/
     margin-left: var(--left-space);
     display: flex;
     flex-direction: column;

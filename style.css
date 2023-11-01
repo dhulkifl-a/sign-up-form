@@ -63,9 +63,12 @@ img {
 }
 
 .main-content {
+    /*Fix the top margin*/
+    justify-content: space-between;
     background-color: var(--main-background-color);
     display: flex;
     flex-direction: column;
+    
 }
 
 [class*="heading"] {
@@ -83,7 +86,7 @@ img {
 }
 
 form {
-    /*Need to figure out flex wrap*/
+    /*Need to figure out flex*/
     margin-left: var(--left-space);
     display: flex;
     flex-direction: column;
